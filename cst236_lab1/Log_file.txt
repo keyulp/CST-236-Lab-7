@@ -1,0 +1,204 @@
+What is the status of <nose2.cfg>?: nose2.cfg is up to date
+0.00520796984419
+
+What is the status of <nose2.cfg>?: nose2.cfg is a dirty repo
+0.00675237963087
+
+Is the <nose2.cfg> in the repo?: Yes
+0.00500845279041
+
+None
+0.00601301705091
+
+What is the acceleration of gravity?: I don't know, please provide the answer
+0.00562096193494
+
+What time is it?: The current time is :03-11-2016 01:22
+0.00108461739936
+
+What is the 8 digit of fibonacci?: 13
+0.00774544908169
+
+What is the 8 digit of pi?: 6
+0.0111204073104
+
+Open the door hal?: I'm afraid I can't do that Keyul
+0.00200461270291
+
+Convert 4.2 meters to kilometers: 0.0042 kilometers
+0.00019828546703
+
+Convert 8.3 meters to gigameters: 8.3e-09 gigameters
+0.000144916707788
+
+Convert 8.3 meters to megameters: 8.3e-06 megameters
+0.000140400889698
+
+Convert 8.3 meters to kilometers: 0.0083 kilometers
+0.000133011369188
+
+Convert 8.3 meters to hectometers: 0.083 hectometers
+0.000133421898105
+
+Convert 8.3 meters to decameters: 0.83 decameters
+0.000135885071609
+
+Convert 8.3 meters to decimeters: 83.0 decimeters
+0.000121927088422
+
+Convert 8.3 meters to centimeters: 830.0 centimeters
+0.000135064013774
+
+Convert 8.3 meters to millimeters: 8300.0 millimeters
+0.000122337617339
+
+Convert 8.3 meters to micrometers: 8300000.0 micrometers
+0.00020567498754
+
+Convert 8.3 meters to nanometers: 8300000000.0 nanometers
+0.000179401136837
+
+What is the meaning of life?: 42
+0.00393286702722
+
+Please make me a grilled cheese?: I can't make sandwiches
+0.000537792881593
+
+Do you have a facebook?: No I have a life
+0.00267705906936
+
+What is myspace?: I'm sorry. I have no information on trash
+0.00250381586629
+
+Do you eat?: No I am a computer
+0.00192168586163
+
+Convert 8 ameters to kilometers: I don't know how to convert that.
+4.39265941454e-05
+
+Convert 100 centimeters to meters: 1 meter
+0.000144095649953
+
+Convert 12 ft to meters: I don't know how to convert that
+2.42212061176e-05
+
+Convert a meter to centimeters: Cannot convert to float
+3.03791398762e-05
+
+Define dance: I don't know the definition for that
+3.24317844625e-05
+
+Define Truck: Any of various forms of vehicle for carrying goods and materials, usually consisting of a single self-propelled unit but also often composed of a trailer vehicle hauled by a tractor unit
+3.36633712142e-05
+
+What polygon has 3 sides?: Triangle
+0.00845607463744
+
+What polygon has 4 sides?: Quadrilateral
+0.00845402199286
+
+What polygon has 5 sides?: Pentagon
+0.00583895279
+
+What polygon has 6 sides?: Hexagon
+0.00545510825237
+
+What polygon has 7 sides?: Heptagon
+0.00560084601799
+
+What polygon has 8 sides?: Octagon
+0.00555609836601
+
+What polygon has 9 sides?: Nonagon
+0.00537341299784
+
+What polygon has 10 sides?: Decagon
+0.00837396885399
+
+What polygon has 11 sides?: I don't know
+0.00552612975505
+
+What is the 5 letter of the alphabet?: E
+0.00209616065146
+
+What is the 27 letter of the alphabet?: Does not exist
+0.00193153855564
+
+What degree of polynomial is x^ 2?: Quadratic
+0.00599700642314
+
+What is the sine of 150?: -0.714876429629
+0.00648923059491
+
+What type of triangle is 1 1 1 ?: equilateral
+0.00952016559094
+
+How do you make a triangle?: I don't know, please provide the answer
+0.00997667374692
+
+Who wrote this code?: I don't know, please provide the answer
+0.00961828200217
+
+Where was this code written?: I don't know, please provide the answer
+0.0117431796778
+
+Why did you write this code?: I don't know, please provide the answer
+0.0103773499702
+
+When did you start this lab?: No Answer
+3.61265447177e-05
+
+Why did you start this lab: No Answer
+2.70949085382e-05
+
+What type of quadrilateral is 1 1 1 1 90 90 90 90?: square
+0.00642683019949
+
+What type of shape is 1 1 1 1 90 90 90 90?: I don't know, please provide the answer
+0.0095690185321
+
+What is the acceleration of gravity?: I don't know, please provide the answer
+0.00776884922997
+
+What is the acceleration of gravity?: -9.8 m/s
+0.00594076396147
+
+What is the acceleration of gravity?: I don't know, please provide the answer
+0.0117554955454
+
+What is the acceleration of gravity?: blah
+0.00796097676324
+
+What type of quadrilateral is 1 1 1 1 90 90 90 90 ?: square
+0.00429782723465
+
+What is the acceleration of gravity?: I don't know, please provide the answer
+0.00803281932376
+
+What is the acceleration of gravity?: 9.8 m/s
+0.00598099579536
+
+42: Exception: Not a string
+2.99686109589e-05
+
+What type of triangle is 1 1 1 1 1?: Exception: get_triangle_type() takes at most 3 arguments (5 given)
+0.00639070365477
+
+What is myspace?: I'm sorry. I have no information on trash
+0.00151526223356
+
+What is the 100 digit of fibonacci?: 218922995834555169026
+0.00374566584096
+
+What is the 100 digit of pi?: 9
+0.0802362347601
+
+What is the sine of 30000?: -0.802665441867
+0.00306870365642
+
+What is the 23 letter of the alphabet?: W
+0.000925742708391
+
+Convert 22156 meters to kilometers: 22.156 kilometers
+8.58005437045e-05
+

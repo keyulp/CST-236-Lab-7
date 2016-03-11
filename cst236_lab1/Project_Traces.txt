@@ -1,0 +1,199 @@
+
+Requirements
+************
+
+#0001 The system shall be able to determine if a triangle is scalene, equilateral or isosceles
+	test_get_triangle_all_float
+	test_get_triangle_dictionary
+	test_get_triangle_equi_all_int
+	test_get_triangle_isos_all_int
+	test_get_triangle_list
+	test_get_triangle_scal_all_int
+	test_get_triangle_tuple
+#0002 The system shall accept three triangle sides as length in either float or integers
+	test_get_triangle_all_float
+	test_get_triangle_dictionary
+	test_get_triangle_equi_all_int
+	test_get_triangle_isos_all_int
+	test_get_triangle_list
+	test_get_triangle_scal_all_int
+	test_get_triangle_tuple
+#0003 The system shall be able to determine the type of quadrilateral based on 4 sides and 4 angles
+	test_get_rectangle
+	test_get_rhombus
+	test_get_rhombus_all_float
+	test_get_square
+#0004 The system shall accept quadrilateral sides as floats or integers
+	test_get_rectangle
+	test_get_rhombus
+	test_get_rhombus_all_float
+	test_get_square
+#0005 The system shall accept quadrilateral angles as floats or integers
+	test_get_rectangle
+	test_get_rhombus
+	test_get_rhombus_all_float
+	test_get_square
+#0006 The system shall accept questions in the form of strings and attempt to answer them
+	test_answer_previous_question
+	test_exception_not_a_string
+	test_question_as_string
+	test_question_bad_type
+	test_question_no_question_mark
+	test_question_with_how
+	test_question_with_keywords
+	test_question_with_no_answer
+	test_question_with_where
+	test_question_with_who
+	test_question_with_why
+#0007 The system shall answer questions that begin with one of the following valid question keywords: "How", "What", "Where", "Why" and "Who"
+	test_answer_previous_question
+	test_question_as_string
+	test_question_with_how
+	test_question_with_keywords
+	test_question_with_no_answer
+	test_question_with_where
+	test_question_with_who
+	test_question_with_why
+#0008 If the system does not detect a valid question keyword it shall return "Was that a question?"
+	test_question_bad_type
+	test_question_no_question_mark
+#0009 If the system does not detect a question mark at end of the string it shall return "Was that a question?"
+	test_question_no_question_mark
+#0010 The system shall break a question down into words separated by space
+	test_answer_previous_question
+	test_question_as_string
+	test_question_bad_type
+	test_question_no_question_mark
+	test_question_with_how
+	test_question_with_keywords
+	test_question_with_no_answer
+	test_question_with_where
+	test_question_with_who
+	test_question_with_why
+#0011 The system shall determine an answer to a question as a correct if the keywords provide a 90% match and return the answer
+	test_question_as_string
+	test_question_with_keywords
+	test_question_with_no_answer
+#0012 The system shall exclude any number value from match code and provide the values to generator function (if one exists)
+	test_exception_too_many_param
+	test_question_as_string
+	test_question_with_keywords
+	test_question_with_no_answer
+#0013 When a valid match is determined the system shall return the answer
+	test_question_as_string
+	test_question_with_keywords
+#0014 When no valid match is determined the system shall return "I don't know, please provide the answer"
+	test_question_with_no_answer
+#0015 The system shall provide a means of providing an answer to the previously asked question.
+	test_answer_previous_question
+#0016 The system shall accept and store answers to previous questions in the form of a string or a function pointer and store it as the generator function.
+	test_teach_answer_function
+#0017 If no previous question has been asked the system shall respond with "Please ask a question first"
+	test_no_previous_question_1
+	test_no_previous_question_2
+#0018 If an attempt is made to provide an answer to an already answered question the system shall respond with "I don't know about that. I was taught differently" and not update the question
+	test_already_known
+#0019 The system shall provide a means of updating an answer to the previously asked question.
+	test_correct_answer
+#0020 The system shall accept and store answers to previous questions in the form of a string or a function pointer and store it as the generator function.
+	test_teach_answer_function
+#0021 If no previous question has been asked the system shall respond with "Please ask a question first".
+	test_no_previous_question_1
+	test_no_previous_question_2
+#0050 When asked a question the system shall output the question to a log file
+	test_writes_to_log_file
+#0051 When asked a question the system shall output the answer to a log file
+	test_writes_to_log_file
+#0052 The system shall output questions and answers to the log file in under 50 ms
+	test_writes_to_log_file
+#0053 The system shall return any value of fibonacci less than or equal to 100 in under 10 ms
+	test_100_digit_of_fibonacci
+#0054 The system shall return any value of pi less than or equal to 100 in under 100 ms
+	test_100_digit_of_pi
+#0055 The system shall return the sine of any number under 5 ms
+	test_sine_of_30000
+#0056 The system shall return the letter at the nth place in the alphabet in under 2 ms
+	test_letter_alphabet_perf
+#0057 The system shall convert any number and units to any other units in under 5 ms
+	test_convert_performance
+#0100 The system shall return 'Yes' or 'No' when asked 'Is the <file path> in the repo?'
+	test_file_untracked
+	test_mock_file_in_repo
+	test_repo_dirty
+#0101 The system shall return one of the following when asked 'What is the status of <file path>?'
+	test_dirty_repo
+	test_file_diff
+	test_file_untracked_for_ggfi
+	test_repo_root
+	test_untracked_files
+	test_up_to_date
+#0102 The system shall return '<hash>, <date modified>, <author>' when asked 'What is the deal with <file path>?'
+	test_file_info
+#0103 The system shall return the repo branch when asked 'What branch is <file path>?'
+	test_repo_branch
+#0104 The system shall return the repo url when asked 'Where did <file path> come from?'
+	test_repo_false_url
+	test_repo_url
+#0105 The systems shall raise an exception when given a file path that doesn't exist.
+	test_exception_wrong_file_path
+
+Job Stories
+***********
+
+When I ask "What time is it?" I want to be given the current date/time so I can stay up to date
+	test_date_time
+When I ask "What is the n digit of fibonacci" I want to receive the answer so I don't have to figure it out myself
+	test_fibonacci_sequence
+When I ask "What is the n digit of pi" I want to receive the answer so I don't have to figure it out myself
+	test_pi_function
+When I ask "Please clear memory" I want the application to clear user set questions and answers so I can reset the application
+	test_clear_memory
+When I say "Open the door hal", I want the application to say "I'm afraid I can't do that <user name> so I know that is not an option
+	test_user_name
+When I ask "Convert <number> <units> to <units>" I want to receive the converted value and units so I can know the answer.
+	test_convert_number_and_unit
+	test_base_as_decimal
+	test_base_not_in_conversions
+	test_wrong_type_value
+	test_wrong_unit
+When I ask for a numeric conversion I want at least 10 different units I can convert from/to
+	test_convert_numeric_1
+	test_convert_numeric_10
+	test_convert_numeric_2
+	test_convert_numeric_3
+	test_convert_numeric_4
+	test_convert_numeric_5
+	test_convert_numeric_6
+	test_convert_numeric_7
+	test_convert_numeric_8
+	test_convert_numeric_9
+When I ask 'What is the meaning of life' I want the system to respond with '42' to indicate its wisdom
+	test_meaning_life
+When I ask 'Please make me a grilled cheese' I want the application to say 'I can't make sandwiches' because it's just a normal computer and shouldn't be able to make food
+	test_make_sandwich
+When I ask 'Do you have a facebook' I want the application to say 'No I have a life' to indicate its wisdom
+	test_have_facebook
+When I ask 'What is myspace' I want the application to say 'I'm sorry. I have no information on trash' to show it has class
+	test_myspace_is_trash
+When I ask 'Do you eat' I want the application to say "No I am a computer" to remind the user that computers don't eat
+	test_computers_do_not_eat
+When i ask "Define <word>" I want the application to give me the definition so i don't have to look it up
+	test_define_word
+	test_word_not_in_dictionary
+When i ask "What polygon has <# of sides> sides" I want to receive the answer so i don't have to figure it out myself
+	test_type_of_polygon_10_sides
+	test_type_of_polygon_3_sides
+	test_type_of_polygon_4_sides
+	test_type_of_polygon_5_sides
+	test_type_of_polygon_6_sides
+	test_type_of_polygon_7_sides
+	test_type_of_polygon_8_sides
+	test_type_of_polygon_9_sides
+	test_type_of_polygon_invalid
+When i ask "What is the n letter of the alphabet" I want to receive the answer so i don't have to figure it out myself
+	test_n_letter_alphabet
+	test_n_letter_invalid
+When i ask "What degree of polynomial is x^ <degree>" I want to receive the answer for my physics hw
+	test_n_degree_polynomial
+When i ask "What is the sine of <number>" I want to receive the answer so i can do my trig hw
+	test_sin
